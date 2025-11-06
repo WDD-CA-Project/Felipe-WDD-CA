@@ -1,0 +1,110 @@
+body {
+    background-image: url('img/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+.wrapper {
+    border: 5px solid red;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+#logoId{
+    float: center;
+    size: 150px;   
+}   
+
+header{
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-color: mediumspringgreen;
+}
+
+h1{
+    color: darkcyan;
+    text-align: center;
+}
+
+h2{
+    color: salmon;
+    text-align: center;
+}
+
+a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+span{
+    color: grey;
+    font-weight: bold;
+}
+
+nav{
+    background-color: lightyellow;
+    border: 2px solid black;
+    clear: both;
+}
+
+#navbar1 {
+    display:none
+}
+
+#navbar2 {
+    display:none
+}
+
+#content{
+    border: 2px solid black;
+    background-image: url('img/background2.jpg');
+    padding: 50px;
+    margin-top: 20px;
+}
+
+#content1{
+    border: 2px solid black;
+    background-image: url('img/background1.jpg');
+    padding: 50px;
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h4{
+    color: darkcyan;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px){
+    header{
+        background-color: lightblue;
+        clear:both
+    }
+}
+    
+@media only screen and (max-width: 450px){
+    header{
+        background-color: lightgoldenrodyellow;
+        clear:both;
+    }
+}
+#logoId{
+    float: center;
+    size: 150px;   
+}   
